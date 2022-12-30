@@ -2,8 +2,10 @@
     <div class="text-center">
         <label class="display-2 my-3 me-3">Techvista</label>
         <label class="h5">GITAM</label>
+        <br>
+        <label class="h6">26th December 2022 - 15th January 2023</label>
     </div>
-    <div class="my-4">
+    <div class="my-4" id="about">
         <label class="h1">About the event</label>
         <div class="fs-4">
             <p>Videos promise to take you on a journey, display your creative side, share a thought, and give you a new
@@ -20,7 +22,7 @@
 
         </div>
     </div>
-    <div class="my-4">
+    <div class="my-4" id="rules">
         <label class="h1">Rules</label>
         <ul class="fs-4">
             <li>There MUST be 4 members in a team.</li>
@@ -36,15 +38,19 @@
                 product in-person in GITAM Bengaluru.</li>
         </ul>
     </div>
-    <label class="h1 my-4">Register for the event ?</label>
-    <br>
-    <button class="mb-4" (click)="goToRegisterPage()">Register</button>
-    <div class="my-4">
+    <div class="my-4" id="register">
+        <label class="h1">Register for the event ?</label>
+        <br>
+        <button (click)="goToRegisterPage()">Register</button>
+    </div>
+    <div class="my-4" id="contact">
         <label class="h1">Have some questions ?</label>
         <br>
-        <button class="mb-2" (click)="openWhatsApp(1)">WhatsApp - Karthik</button>
+        <button class="mb-2" (click)="openWhatsApp(1)">WhatsApp - Hyderabad</button>
         <br>
-        <button class="mb-3" (click)="openWhatsApp(2)">WhatsApp - Lalit</button>
+        <button class="mb-2" (click)="openWhatsApp(3)">WhatsApp - Vizag</button>
+        <br>
+        <button class="mb-3" (click)="openWhatsApp(2)">WhatsApp - Bangalore</button>
     </div>
 
 </div>

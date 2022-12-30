@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,7 +7,7 @@ import { Router } from '@angular/router';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void { }
 
@@ -20,11 +19,13 @@ export class HomeComponent implements OnInit {
   openWhatsApp(value: any) {
     switch (value) {
       case 1:
-        window.open(this.getWhatsappLink('9618763917'), '_blank')
-        break;
+        window.open(this.getWhatsappLink('7995544085'), '_blank')
+        break
       case 2:
-        window.open(this.getWhatsappLink('7993580626'), '_blank')
-        break;
+        window.open(this.getWhatsappLink('8431822071'), '_blank')
+        break
+      case 3:
+        window.open(this.getWhatsappLink('7013802227'), '_blank')
     }
   }
 
